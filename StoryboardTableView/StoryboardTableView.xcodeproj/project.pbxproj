@@ -18,6 +18,7 @@
 		D4210A3217432E830056D3D6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4210A3117432E830056D3D6 /* Default-568h@2x.png */; };
 		D4210A3517432E830056D3D6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4210A3317432E830056D3D6 /* MainStoryboard.storyboard */; };
 		D4210A3817432E830056D3D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4210A3717432E830056D3D6 /* ViewController.m */; };
+		D4210A401743313E0056D3D6 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4210A3F1743313E0056D3D6 /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		D4210A3417432E830056D3D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D4210A3617432E830056D3D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D4210A3717432E830056D3D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4210A3E1743313E0056D3D6 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		D4210A3F1743313E0056D3D6 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				D4210A3317432E830056D3D6 /* MainStoryboard.storyboard */,
 				D4210A3617432E830056D3D6 /* ViewController.h */,
 				D4210A3717432E830056D3D6 /* ViewController.m */,
+				D4210A3E1743313E0056D3D6 /* MyTableViewController.h */,
+				D4210A3F1743313E0056D3D6 /* MyTableViewController.m */,
 				D4210A2217432E830056D3D6 /* Supporting Files */,
 			);
 			path = StoryboardTableView;
@@ -176,6 +181,7 @@
 				D4210A2817432E830056D3D6 /* main.m in Sources */,
 				D4210A2C17432E830056D3D6 /* AppDelegate.m in Sources */,
 				D4210A3817432E830056D3D6 /* ViewController.m in Sources */,
+				D4210A401743313E0056D3D6 /* MyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
