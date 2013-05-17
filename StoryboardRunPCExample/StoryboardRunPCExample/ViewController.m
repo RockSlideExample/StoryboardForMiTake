@@ -35,9 +35,9 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     
-    UIViewController *second = segue.destinationViewController;
-    [second setTitle:@"second"];
-    [[second view] setBackgroundColor:[UIColor redColor]];
+    SecondViewController *secondView = segue.destinationViewController;
+    [secondView setValue:@"Second" forKey:@"nameString"];
+    [secondView setTitle:@"Second Titile"];
 }
 
 @end

@@ -18,6 +18,7 @@
 		D412CCE01741E05F00EB310C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D412CCDF1741E05F00EB310C /* Default-568h@2x.png */; };
 		D412CCE31741E05F00EB310C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D412CCE11741E05F00EB310C /* MainStoryboard.storyboard */; };
 		D412CCE61741E05F00EB310C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D412CCE51741E05F00EB310C /* ViewController.m */; };
+		D453EC5D1744D98600230D32 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D453EC5C1744D98600230D32 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		D412CCE21741E05F00EB310C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D412CCE41741E05F00EB310C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D412CCE51741E05F00EB310C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D453EC5B1744D98600230D32 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D453EC5C1744D98600230D32 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				D412CCE11741E05F00EB310C /* MainStoryboard.storyboard */,
 				D412CCE41741E05F00EB310C /* ViewController.h */,
 				D412CCE51741E05F00EB310C /* ViewController.m */,
+				D453EC5B1744D98600230D32 /* SecondViewController.h */,
+				D453EC5C1744D98600230D32 /* SecondViewController.m */,
 				D412CCD01741E05F00EB310C /* Supporting Files */,
 			);
 			path = StoryboardRunPCExample;
@@ -176,6 +181,7 @@
 				D412CCD61741E05F00EB310C /* main.m in Sources */,
 				D412CCDA1741E05F00EB310C /* AppDelegate.m in Sources */,
 				D412CCE61741E05F00EB310C /* ViewController.m in Sources */,
+				D453EC5D1744D98600230D32 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				D412CCEB1741E05F00EB310C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
